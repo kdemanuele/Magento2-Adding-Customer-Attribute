@@ -1,0 +1,16 @@
+<?php
+/**
+ * Copyright © 2015 Clounce.
+ *
+ * This class was obtained from Magento Customer Widget taxvat
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+<div class="field custom2<?php if ($block->isRequired()) echo ' required'; ?>">
+    <label class="label" for="<?php /* @escapeNotVerified */ echo $block->getFieldId('custom_2')?>"><span><?php /* @escapeNotVerified */ echo __('Some custom text') ?></span></label>
+    <div class="control">
+        <input type="text" id="<?php /* @escapeNotVerified */ echo $block->getFieldId('custom_2')?>" name="<?php /* @escapeNotVerified */ echo $block->getFieldName('custom_2')?>" value="<?php echo $block->escapeHtml($block->getCustom2()) ?>" title="<?php /* @escapeNotVerified */ echo __('Some custom text') ?>" class="input-text" <?php if ($block->isRequired()) echo ' data-validate="{required:true}"' ?>>
+    </div>
+</div>
